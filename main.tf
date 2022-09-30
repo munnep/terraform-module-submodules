@@ -1,4 +1,4 @@
-resource null_resource "mynull" {}
+resource "null_resource" "mynull" {}
 
 module "uses-role" {
   source = "./module/depends-on"
