@@ -6,5 +6,5 @@ module "uses-resource" {
 
 
 module "uses-another-resource" {
-  source = "./a-submodule"
+  source = "./modules/a-submodule"
 }
