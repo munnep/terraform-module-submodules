@@ -8,3 +8,7 @@ module "uses-resource" {
 module "uses-another-resource" {
   source = "./modules/a-submodule"
 }
+
+module "resource-again" {
+  source = "./another-module"
+}
